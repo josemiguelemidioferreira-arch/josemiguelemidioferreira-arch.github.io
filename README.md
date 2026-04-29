@@ -1,1 +1,1 @@
-# josemiguelemidioferreira-arch-.github.io
+# josemiguelemidioferreira-arch.github.io
