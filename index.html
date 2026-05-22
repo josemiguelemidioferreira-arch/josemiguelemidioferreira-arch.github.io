@@ -7,114 +7,173 @@
     <title>Document</title>
 </head>
 <body>
-    <nav>
-        <a href="#c1" id="link" class="bty">Inicio</a>
-        <a href="#c2" id="link">História</a>
-        <a href="#c3" id="link">Técnicas</a>
-        <a href="#c4" id="link">Sobre Mim</a>
-        <a href="#c5" id="link">Contato</a>
-    </nav>
+    <div class="banner">
+        <h1>☕ Café &amp; da Pipa.</h1>
+        <p>Painel de Gestão Operacional e Cardápio da Loja</p>
+    </div>
 
-    <section id="c1">
+    <div class="tabela-seccao">
+        <h2>Cardápio de Cafés Clássicos</h2>
+        <p class="descricao">Explore a nossa seleção de cafés feitos com grãos 100% arábica e moídos na hora.</p>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Bebida</th>
+                    <th>Tamanho</th>
+                    <th>Ingredientes</th>
+                    <th>Preço</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Espresso</strong></td>
+                    <td>50ml</td>
+                    <td>Café puro concentrado</td>
+                    <td class="preco">R$ 6,00</td>
+                </tr>
+                <tr>
+                    <td><strong>Americano</strong></td>
+                    <td>150ml</td>
+                    <td>Espresso com água quente</td>
+                    <td class="preco">R$ 7,50</td>
+                </tr>
+                <tr>
+                    <td><strong>Cappuccino</strong></td>
+                    <td>200ml</td>
+                    <td>Espresso, leite vaporizado e espuma</td>
+                    <td class="preco">R$ 11,00</td>
+                </tr>
+                <tr>
+                    <td><strong>Café Latte</strong></td>
+                    <td>250ml</td>
+                    <td>Muito leite vaporizado com um toque de espresso</td>
+                    <td class="preco">R$ 10,00</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
-        <div class="texto">
+    <div class="tabela-seccao">
+        <h2>Acompanhamentos e Doces</h2>
+        <p class="descricao">Os pares perfeitos para o seu café, saídos quentinhos direto do nosso forno.</p>
+        <table  border="1">
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Tipo</th>
+                    <th>Opção Vegana/Sem Glúten</th>
+                    <th>Preço</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Pão de Queijo</strong></td>
+                    <td>Salgado</td>
+                    <td>Sem Glúten</td>
+                    <td class="preco">R$ 5,00</td>
+                </tr>
+                <tr>
+                    <td><strong>Croissant de Manteiga</strong></td>
+                    <td>Salgado</td>
+                    <td>Não</td>
+                    <td class="preco">R$ 9,50</td>
+                </tr>
+                <tr>
+                    <td><strong>Cookie de Chocolate</strong></td>
+                    <td>Doce</td>
+                    <td>Não</td>
+                    <td class="preco">R$ 7,00</td>
+                </tr>
+                <tr>
+                    <td><strong>Brownie Belga</strong></td>
+                    <td>Doce</td>
+                    <td>Disponível Vegano</td>
+                    <td class="preco">R$ 12,00</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
-            <h1>A arte do equilíbrio e da <br>eficiência no tatame.</h1>
+    <div class="tabela-seccao">
+        <h2>Grãos e Cafés em Pó (Leve para Casa)</h2>
+        <p class="descricao">Leve a experiência da nossa cafetaria para o conforto do seu lar.</p>
+        <table  border="1">
+            <thead>
+                <tr>
+                    <th>Blend / Origem</th>
+                    <th>Torra</th>
+                    <th>Notas de Sabor</th>
+                    <th>Preço (250g)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Blend da Casa</strong></td>
+                    <td>Média</td>
+                    <td>Chocolate e Caramelo</td>
+                    <td class="preco">R$ 32,00</td>
+                </tr>
+                <tr>
+                    <td><strong>Cerrado Mineiro</strong></td>
+                    <td>Média-Escura</td>
+                    <td>Nozes e Frutas Amarelas</td>
+                    <td class="preco">R$ 38,00</td>
+                </tr>
+                <tr>
+                    <td><strong>Sul de Minas Premium</strong></td>
+                    <td>Leve</td>
+                    <td>Florais e Cítricas</td>
+                    <td class="preco">R$ 42,00</td>
+                </tr>
+                <tr>
+                    <td><strong>Descafeinado Amigo</strong></td>
+                    <td>Média</td>
+                    <td>Doce de Leite</td>
+                    <td class="preco">R$ 35,00</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
-            <p>Instituto Reação e seu foco em técnica e aprimoramento <br>constante.</p>
-
-            <br>
-
-            <a href="#" id="gpt">Conteúdo</a>
-
-        </div>
-
-        <img src="ChatGPT Image 23 de abr. de 2026, 18_15_58.png" id="ipon">
-
-    </section>
-
-    <section id="c2">
-
-        <div class="conteudo">
-
-            <h2>A História do Judô</h2>
-
-            <ul>
-
-                <li>O judô não surgiu do nada. Foi criado em 1882, no <br> Japão, por um mestre chamado Jigoro Kano</li>
-
-                <li>Filosofia Seiryoku Zen'yo (Máxima eficiência, mínimo <br>esforço)e Jita Kyoei (Bem-estar e benefícios mútuos).</li>
-
-                <li>A ideia não é vencer pela força bruta, mas sim usando  <br>a força  do próprio adversário contra ele, com o mínimo <br> de esforço </li>
-
-                <li>Jigoro Kano também criou um código moral com 8 virtude <br>que todo judoca deve seguir: cortesia, coragem, honestidade, honra, modéstia, respeito, autocontrole e amizade </li>
-
-            </ul>
-
-            <img src="ChatGPT Image 22 de abr. de 2026, 20_24_49.png" id="foto-jigoro">
-
-        </div>
-
-    </section>
-
-    <section id="c3">
-        <div class="container">
-            <div class="cont">
-                <p>Eri ippon seoi</p>
-                <video src="WhatsApp Video 2026-04-27 at 17.56.54.mp4" class="video-oculto" controls></video>
-            </div>
-
-            <div class="cont">
-                <p>Uchi Mata</p>
-                <video src="WhatsApp Video 2026-04-27 at 17.56.56.mp4" class="video-oculto" controls></video>
-            </div>
-
-            <div class="cont">
-                <p>Hane Goshi</p>
-                <video src="WhatsApp Video 2026-04-27 at 17.56.51.mp4" class="video-oculto" controls></video>
-            </div>
-
-            <div class="cont">
-                <p>Seoi nage</p>
-                <video src="WhatsApp Video 2026-04-27 at 17.56.48.mp4" class="video-oculto" controls></video>
-            </div>
-        </div>
-
-    </section>
-
-    <section id="c4">
-        <div class="gta">
-        <h3>Minha Historia</h3>
-            <ul>
-                <li>Meu nome e José Miguel sou morador de tibau do sul da comunidade de bela vista.</li>
-                <li>Tenho 20 anos e meus maiores objetivos e são chegar a <br>faixa preta e genha um campeonato de judõ.</li>
-                <li>E outros dos meus obijetivos tanbem e termina minha faculdade de tecnologia de sitemas para internet.</li>
-                <li>E seguir na area de desenvolvimento de software e na areas de ciancia de  dados e segurança da informação</li>
-                <li>Tanbem pretenho abrir empresas ou me torna um sensei de judo e mudar minha comunidade e o mundo com a tecnologia</li>
-            </ul>
-            <img src="ChatGPT Image 23 de abr. de 2026, 17_57_27.png" id="uchi">
-    </section>
-
-    <footer id="c5">
-
-        <h4>Contatos</h4>
-
-        <ul id="vgi">
-
-            <li>Identificação: José Miguel Emidio Ferreira.</li>
-
-            <li>gmail: jose.emdidio@gmail.com.</li>
-
-            <li>Instagram: Vem_Reagi.</li>
-
-            <li>instituição: Instituto Reação.</li>
-
-            <li>Gradução: Faixa amarela.</li>
-
-        </ul>
-
-
-    </footer>
-    <script src="script.js"></script>
+    <div class="tabela-seccao">
+        <h2>Equipe e Escala de Turnos</h2>
+        <p class="descricao">A nossa equipa de baristas prontos para preparar o melhor café da sua vida.</p>
+        <table  border="1">
+            <thead>
+                <tr>
+                    <th>Funcionário</th>
+                    <th>Cargo</th>
+                    <th>Turno</th>
+                    <th>Folga Semanal</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Lucas Silva</strong></td>
+                    <td>Barista Chefe</td>
+                    <td>Manhã (07:00 - 15:00)</td>
+                    <td>Segunda-feira</td>
+                </tr>
+                <tr>
+                    <td><strong>Mariana Souza</strong></td>
+                    <td>Barista</td>
+                    <td>Manhã (07:00 - 15:00)</td>
+                    <td>Terça-feira</td>
+                </tr>
+                <tr>
+                    <td><strong>Carlos Eduardo</strong></td>
+                    <td>Barista</td>
+                    <td>Tarde/Noite (14:00 - 22:00)</td>
+                    <td>Quarta-feira</td>
+                </tr>
+                <tr>
+                    <td><strong>Beatriz Reis</strong></td>
+                    <td>Gerente</td>
+                    <td>Geral</td>
+                    <td>Domingo</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </body>
 </html>
