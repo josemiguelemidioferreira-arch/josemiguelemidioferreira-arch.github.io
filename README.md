@@ -1,1 +1,0 @@
-# josemiguelemidioferreira-arch.github.io
